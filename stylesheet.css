@@ -1,0 +1,181 @@
+.column{
+    display: flex;
+    flex-direction: row;
+     height:50px;
+     margin-top: 15px;
+}
+
+.firstside{
+    background-color: lightpink;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1{
+    background-color: black;
+    color: white;
+}
+
+.secondside{
+    background-color: lightblue;
+    width: 200px;   
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row2{
+    background-color: black;
+    color: white;
+}
+
+.all-div{
+    border: solid;
+    border-color: rgb(248, 243, 243);
+    border-width: 1px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 330px;
+    box-shadow: 2px 2px 2px rgba(0.15, 0.15, 0.15, 0.15);
+}
+
+
+.p-div{
+    flex: 1;
+}
+
+
+.rex{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius:25px;
+    margin-right: 10px;
+}
+
+.all-div-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+
+}
+
+.chexy-time{
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.inboxes{
+    font-size: 13px;
+    color: gray;
+}
+.chexy{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.biggest{
+    color: gray;  
+    font-size: 13px;
+}
+
+.time{
+    color: gray;  
+    font-size: 13px;  
+}
+
+.rex-image{
+    margin-left: 10px;
+}
+
+.second-division{
+    border: solid;
+    border-color: rgb(248, 243, 243);
+    border-width: 1px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 340px;
+    box-shadow: 2px 2px 2px rgba(0.15, 0.15, 0.15, 0.15); 
+}
+.second-division1{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 320px;
+}
+
+.allcontainer{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+ 
+}
+
+.super-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+} 
+
+.what{
+    margin-bottom: 15px;
+line-height: 20px;
+}
+
+.youtube-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(214, 211, 211, 0.863);
+    border-radius: 10px;
+    width:320px;
+    overflow: hidden;
+}
+
+.youtube-left{
+    background-color: rgb(206, 201, 201);
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+.youtube-right{
+    flex: 1;
+}
+
+.simplep{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-right: 3px;
+}
+.suoer{
+color: gray;
+font-weight: bold;
+}
+.youtube{
+    color: gray;
+font-weight: bold;
+font-size: 16px;
+margin-bottom: 3px; 
+}
+
+.backend{
+    line-height: 20px;  
+}
